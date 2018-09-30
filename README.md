@@ -3,6 +3,8 @@ Simple logger written in TypeScript for Node.js
 
 [![Build Status](https://travis-ci.org/asorian0/ts-logger.svg?branch=master)](https://travis-ci.org/asorian0/ts-logger)
 [![codecov](https://codecov.io/gh/asorian0/ts-logger/branch/master/graph/badge.svg)](https://codecov.io/gh/asorian0/ts-logger)
+[![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
+[![Coverage](https://github.com/asorian0/ts-logger/blob/master/documentation/images/coverage-badge-documentation.svg)](https://github.com/asorian0/ts-logger)
 
 ## Usage
 ```
