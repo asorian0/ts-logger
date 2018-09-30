@@ -4,3 +4,5 @@ node_js:
 script:
   - npm run lint
   - npm test
+env:
+  - CODECOV_TOKEN="91ed09ad-ce3b-471a-a72d-19f9a65d6a6e"
