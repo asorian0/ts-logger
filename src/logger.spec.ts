@@ -22,7 +22,7 @@ describe('Logger', () => {
     const mockOptions = {
       path: './test',
       filename: 'logfile',
-      loggerLogFile: './test/logger-log'
+      loggerLogFile: './test/logger-log',
     };
     const infoMessage = 'Info Message';
     const infoHeader = '[INFO]';
@@ -49,6 +49,7 @@ describe('Logger', () => {
       expect(instanceOptions.path).to.be.equal(mockOptions.path);
       expect(instanceOptions.filename).to.be.equal(mockOptions.filename);
       expect(instanceFileUri).to.be.equal(
+        // tslint:disable-next-line:trailing-comma
         `${path.resolve(path.normalize(instanceOptions.path))}/${instanceOptions.filename}`
       );
       expect(instanceLoggerFileUri).to.be.equal(path.resolve(path.resolve(__dirname), '..', mockOptions.loggerLogFile));
@@ -99,7 +100,7 @@ describe('Logger', () => {
     const mockOptions = {
       path: 'test/test',
       filename: 'logfile',
-      loggerLogFile: './test/logger-log'
+      loggerLogFile: './test/logger-log',
     };
     let instance: Logger;
 
