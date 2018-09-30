@@ -1,6 +1,8 @@
 # ts-logger
 Simple logger written in TypeScript for Node.js
 
+[![Build Status](https://travis-ci.org/asorian0/ts-logger.svg?branch=master)](https://travis-ci.org/asorian0/ts-logger)
+
 ## Usage
 ```
 import { Logger } from '@asoriano/ts-logger;
