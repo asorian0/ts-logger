@@ -14,7 +14,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
         let tp = lithtml.html(`<nav>
     <ul class="list">
         <li class="title">
-            <a href="index.html" data-type="index-link">@asoriano/logger-ts documentation</a>
+            <a href="index.html" data-type="index-link">@asoriano/ts-logger documentation</a>
         </li>
         <li class="divider"></li>
         ${ isNormalMode ? `<div id="book-search-input" role="search">

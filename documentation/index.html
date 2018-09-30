@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>@asoriano/logger-ts documentation</title>
+        <title>@asoriano/ts-logger documentation</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,7 +13,7 @@
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
-            <a href="./" class="navbar-brand">@asoriano/logger-ts documentation</a>
+            <a href="./" class="navbar-brand">@asoriano/ts-logger documentation</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
@@ -35,6 +35,47 @@
 
 <h1 id="ts-logger">ts-logger</h1>
 <p>Simple logger written in TypeScript for Node.js</p>
+<h2 id="usage">Usage</h2>
+<div><pre class="line-numbers"><code class="language-none">import { Logger } from &#39;&#64;asoriano/ts-logger;
+
+const logger = new Logger({
+  path: &#39;./path&#39;,
+  filename: &#39;name.log&#39;,
+});</code></pre></div><h3 id="options">Options</h3>
+<table class="table table-bordered compodoc-table">
+<thead>
+<tr>
+<th>Name</th>
+<th align="center">Type</th>
+<th align="right">Example</th>
+<th align="right">Is optional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>path</code></td>
+<td align="center"><code>string</code></td>
+<td align="right"><code>&#39;./some-relative-path&#39;</code></td>
+<td align="right"><code>false</code></td>
+</tr>
+<tr>
+<td><code>filename</code></td>
+<td align="center"><code>string</code></td>
+<td align="right"><code>&#39;app-name.log&#39;</code></td>
+<td align="right"><code>false</code></td>
+</tr>
+<tr>
+<td><code>loggerLogFile</code></td>
+<td align="center"><code>string</code></td>
+<td align="right"><code>&#39;/some-path/logger.log&#39;</code></td>
+<td align="right"><code>true</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="test">Test</h2>
+<p>Just run <code>npm test</code>.</p>
+<h2 id="contributing">Contributing</h2>
+<p>Any feedback is always welcome so please just raise an issue and will reply ASAP. Feel free to create PR if you have the time.</p>
 
 
 
