@@ -6,6 +6,6 @@ script:
   - npm run lint
   - npm test
 after_success:
-  - codecov
+  - npm run coverage
 env:
   - CODECOV_TOKEN="91ed09ad-ce3b-471a-a72d-19f9a65d6a6e"

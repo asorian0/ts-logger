@@ -10,7 +10,8 @@
     "prepackage": "cp ./package.json @asoriano/logger-ts/package.json && cp dist/* @asoriano/logger-ts",
     "package": "cd $npm_package_name && npm pack",
     "postpackage": "mv $npm_package_name/asoriano-logger-ts-$npm_package_version.tgz $npm_package_name@latest.tgz",
-    "compodoc": "./node_modules/.bin/compodoc -p tsconfig.json"
+    "compodoc": "./node_modules/.bin/compodoc -p tsconfig.json",
+    "coverage": "nyc report--reporter = json > coverage/coverage.json && codecov"
   },
   "repository": {
     "type": "git",
@@ -52,6 +53,11 @@
       "json"
     ],
     "sourceMap": true,
-    "instrument": true
+    "instrument": true,
+    "check-coverage": true,
+    "lines": 80,
+    "statements": 80,
+    "functions": 80,
+    "branches": 80
   }
 }
