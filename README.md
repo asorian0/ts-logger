@@ -5,6 +5,7 @@ Simple logger written in TypeScript for Node.js
 [![codecov](https://codecov.io/gh/asorian0/ts-logger/branch/master/graph/badge.svg)](https://codecov.io/gh/asorian0/ts-logger)
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 [![Coverage](https://github.com/asorian0/ts-logger/blob/master/documentation/images/coverage-badge-documentation.svg)](https://github.com/asorian0/ts-logger)
+[![codebeat badge](https://codebeat.co/badges/c1573a66-a721-49b7-bd94-50c5e4e776b0)](https://codebeat.co/projects/github-com-asorian0-ts-logger-master)
 
 ## Usage
 ```
